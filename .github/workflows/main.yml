@@ -8,6 +8,7 @@ on:
 
 jobs:
   build:
+
     runs-on: ubuntu-latest # Define o sistema operacional para executar o workflow.
 
     steps:
