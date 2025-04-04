@@ -15,9 +15,9 @@ steps:
 
 - name: Executar testes
 run: |
-echo #"Nenhum teste implementado ainda. Adicione testes em script.js!"
-echo #"Podemos adicionar testes com Jest ou Cypress no futuro."
-echo #"Testes simulados aprovados"
+echo "Nenhum teste implementado ainda. Adicione testes em script.js!"
+echo "Podemos adicionar testes com Jest ou Cypress no futuro."
+echo "Testes simulados aprovados"
 
 exit 0 # Simula testes passando
 
