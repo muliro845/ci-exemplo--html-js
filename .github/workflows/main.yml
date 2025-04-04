@@ -19,7 +19,7 @@ jobs:
           echo "Nenhum teste implementado ainda. Adicione testes em script.js!"
           echo "Podemos adicionar testes com Jest ou Cypress no futuro."
           echo "Testes simulados aprovados"
-          exit 0 # Simula testes passando
+          
 
       - name: Deploy para GitHub Pages
         if: github.ref == 'refs/heads/main' # Só executa o deploy quando o commit for na branch main.
